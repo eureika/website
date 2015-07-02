@@ -1,0 +1,94 @@
+body {
+  margin-top: 70px;
+  font-family: 'Genome', sans-serif;
+
+  #main {
+    width: 900px;
+  }
+
+  #title {
+    font-size: 50px;
+    margin-bottom: 0px;
+  }
+
+  .header {
+    text-align: left;
+    a {   
+      margin-left: 3px;
+      margin-right: 20px;
+    }
+  }
+
+  a {
+    font-size: 13px;
+    color: #CCCCCC;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #808080;
+  }
+
+  .content {
+    width: 900px;
+    text-align: left;
+    overflow: hidden;
+  }
+
+  .box {
+    width: 219px;
+    //box-sizing: border-box;
+    margin-top: 10px;
+    float: left;
+  }
+
+  .margin {
+    padding-left: 8px;
+  }
+
+  #media {
+    margin-top: 20px;
+  }
+
+  #inactive {
+    color: #808080;
+    pointer-events: none;
+    cursor: default;
+  }
+
+  h2 {
+    padding-top: 70px;
+  }
+
+  h4 {
+    color: #808080;
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+  }
+
+  img {
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+    width: 100%;
+  }
+
+  .line {
+    height: 1px;
+    width: 100%;
+    background-color: #CCCCCC;
+    margin-top: 30px;
+  }
+
+  .description {
+    float: left;
+  }
+
+}
+
+@font-face {
+  font-family: "Genome";
+  src: url(font-path("Genome-Thin.otf")) format("opentype");
+}
+/* font-family: 'Josefin Sans', sans-serif; */ 
