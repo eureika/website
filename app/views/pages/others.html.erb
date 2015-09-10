@@ -1,27 +1,37 @@
+<% content_for :title, "About Me" %>
+
 <body>
   <center><div id="main">
     <div class="header">
-      <p id="title">REIKA YOSHINO</p>
-      <a href="/reel">DEMO REEL</a>
-      <a href="/models">3D MODELS</a>
-      <a href="/designs">DESIGNS</a>
-      <a href="/projects">PROJECTS</a>
-      <a href="/others" id="inactive">OTHERS</a>
-      <a href="/resume">RESUME</a>
+      <p id="title"><a href="/">REIKA YOSHINO</a></p>
+      <a href="/reel" class="menu">DEMO REEL</a>
+      <a href="/models" class="menu">3D MODELS</a>
+      <a href="/designs" class="menu">DESIGNS</a>
+      <a href="/projects" class="menu">PROJECTS</a>
+      <a href="/others" class="menu" id="inactive">OTHERS</a>
+      <a href="/about" class="menu">ABOUT</a>
     </div>
     
     <div class="line" />
 
     <div class="content">
+
       <div class="box">
-        <%= image_tag "placeholder.jpg" %>
+        <a href="/others/sketchbook"><%= image_tag "sketchbook.jpg" %></a>
         <h4>Sketches</h4>
       </div> 
 
       <div class="box margin">
-        <%= image_tag "placeholder.jpg" %>
-        <h4>Paintings</h4>
+        <a href="/others/studies"><%= image_tag "studies.jpg" %></a>
+        <h4>Studies</h4>
       </div>
+
+      <div class="box margin">
+        <a href="/others/animated_shorts"><%= image_tag "animated_shorts.jpg" %></a>
+        <h4>Animated Shorts</h4>
+      </div> 
+
+
     
     </div>
 
@@ -30,7 +40,7 @@
     <br>
     <p>
       <div class="header">
-        <a href="/">HOME</a>
+        <a href="/" class="menu">HOME</a>
       </div>
     </p>
     <br><br>

@@ -1,36 +1,39 @@
+<% content_for :title, "3D Models" %>
+
 <body>
   <center><div id="main">
     <div class="header">
-      <p id="title">REIKA YOSHINO</p>
-      <a href="/reel">DEMO REEL</a>
-      <a href="/models" id="inactive">3D MODELS</a>
-      <a href="/designs">DESIGNS</a>
-      <a href="/projects">PROJECTS</a>
-      <a href="/others">OTHERS</a>
-      <a href="/resume">RESUME</a>
+      <p id="title"><a href="/">REIKA YOSHINO</a></p>
+      <a href="/reel" class="menu">DEMO REEL</a>
+      <a href="/models" class="menu" id="inactive">3D MODELS</a>
+      <a href="/designs" class="menu">DESIGNS</a>
+      <a href="/projects" class="menu">PROJECTS</a>
+      <a href="/others" class="menu">OTHERS</a>
+      <a href="/about" class="menu">ABOUT</a>
     </div>
     
     <div class="line" />
 
     <div class="content">
+
       <div class="box">
-        <%= image_tag "placeholder.jpg" %>
-        <h4>House</h4>
+        <a href="/models/cottage"><%= image_tag "model_cottage.jpg" %></a>
+        <h4>Cottage</h4>
+      </div> 
+      
+      <div class="box margin">
+         <a href="/models/environments"><%= image_tag "model_environment.jpg" %></a>
+        <h4>Environments</h4>
       </div> 
 
       <div class="box margin">
-        <%= image_tag "placeholder.jpg" %>
+         <a href="/models/camera"><%= image_tag "model_camera.jpg" %></a>
         <h4>Camera</h4>
       </div> 
 
       <div class="box margin">
-        <%= image_tag "placeholder.jpg" %>
-        <h4>Cupcakes</h4>
-      </div> 
-
-      <div class="box margin">
-        <%= image_tag "placeholder.jpg" %>
-        <h4>Environment</h4>
+         <a href="/models/cupcake"><%= image_tag "model_cupcake.jpg" %></a>
+        <h4>Cupcake</h4>
       </div> 
     
     </div>
@@ -40,7 +43,7 @@
     <br>
     <p>
       <div class="header">
-        <a href="/">HOME</a>
+        <a href="/" class="menu">HOME</a>
       </div>
     </p>
     <br><br>

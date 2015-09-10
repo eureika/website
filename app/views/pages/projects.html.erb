@@ -1,42 +1,41 @@
+<% content_for :title, "Projects" %>
+
 <body>
+
   <center><div id="main">
     <div class="header">
-      <p id="title">REIKA YOSHINO</p>
-      <a href="/reel">DEMO REEL</a>
-      <a href="/models">3D MODELS</a>
-      <a href="/designs">DESIGNS</a>
-      <a href="/projects" id="inactive">PROJECTS</a>
-      <a href="/others">OTHERS</a>
-      <a href="/resume">RESUME</a>
+      <p id="title"><a href="/">REIKA YOSHINO</a></p>
+      <a href="/reel" class="menu">DEMO REEL</a>
+      <a href="/models" class="menu">3D MODELS</a>
+      <a href="/designs" class="menu">DESIGNS</a>
+      <a href="/projects" class="menu" id="inactive">PROJECTS</a>
+      <a href="/others" class="menu">OTHERS</a>
+      <a href="/about" class="menu">ABOUT</a>
     </div>
     
     <div class="line" />
 
     <div class="content">
+
       <div class="box">
-        <%= image_tag "game_prairie.jpg" %>
+        <a href="/projects/prairie"><%= image_tag "game_prairie.jpg" %></a>
         <h4>Walking Simulator</h4>
-      </div> 
+      </div>
 
       <div class="box margin">
-        <%= image_tag "instant.jpg" %>
+        <a href="/projects/goobr"><%= image_tag "goobr.jpg" %></a>
+        <h4>Goobr</h4>
+      </div>
+
+      <div class="box margin">
+        <a href="/projects/instant"><%= image_tag "instant.jpg" %></a>
         <h4>The Instant Button</h4>
       </div>
 
       <div class="box margin">
-        <a href="/projects/animated_short"> <%= image_tag "animated_short.jpg" %> </a>
-        <h4>Animated Short</h4>
-      </div> 
-
-      <div class="box margin">
-        <%= image_tag "leica_reel.jpg" %>
-        <h4>Leica Reel</h4>
-      </div> 
-
-      <div class="box">
-        <a href="/projects/afterglow"> <%= image_tag "afterglow.jpg" %> </a>
-        <h4>Afterglow</h4>
-      </div> 
+        <%= image_tag "comingsoon.jpg" %>
+        <h4>Cherry's Blossom</h4>
+      </div>      
     
     </div>
 
@@ -45,9 +44,10 @@
     <br>
     <p>
       <div class="header">
-        <a href="/">HOME</a>
+        <a href="/" class="menu">HOME</a>
       </div>
     </p>
     <br><br>
   </div></center>
+
 </body>

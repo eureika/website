@@ -9,20 +9,28 @@ Rails.application.routes.draw do
   get '/designs' => 'pages#designs'
   get '/projects' => 'pages#projects'
   get '/others' => 'pages#others'
-  get '/resume' => 'pages#resume'
+  get '/about' => 'pages#about'
 
   # Models
+  get '/models/cottage' => 'pages#cottage'
+  get '/models/environments' => 'pages#environments'
+  get '/models/camera' => 'pages#camera'
+  get '/models/cupcake' => 'pages#cupcake'
 
   # Design
-  get '/design/card_series' => 'pages#card_series'
-  get '/design/pennappetit' => 'pages#pennappetit'
-  get '/design/journal_wax' => 'pages#journal_wax'
+  get '/designs/card_series' => 'pages#card_series'
+  get '/designs/pennappetit' => 'pages#pennappetit'
+  get '/designs/journal_wax' => 'pages#journal_wax'
 
   # Projects
-  get '/projects/animated_short' => 'pages#animated_short'
-  get '/projects/afterglow' => 'pages#afterglow'
+  get '/projects/prairie' => 'pages#prairie'
+  get '/projects/goobr' => 'pages#goobr'
+  get '/projects/instant' => 'pages#instant'
 
   # Others
+  get '/others/studies' => 'pages#studies'
+  get '/others/sketchbook' => 'pages#sketchbook'
+  get '/others/animated_shorts' => 'pages#animated_shorts'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

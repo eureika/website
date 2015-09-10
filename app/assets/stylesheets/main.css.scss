@@ -1,32 +1,61 @@
+// force scroll bar
+html {
+  overflow-y: scroll;
+}
+
 body {
   margin-top: 70px;
   font-family: 'Genome', sans-serif;
+
 
   #main {
     width: 900px;
   }
 
-  #title {
-    font-size: 50px;
-    margin-bottom: 0px;
-  }
-
   .header {
     text-align: left;
-    a {   
-      margin-left: 3px;
-      margin-right: 20px;
+
+    #title {
+      font-size: 50px;
+      margin-bottom: -3px;
+
+      a {
+        color: #000000;
+        text-decoration: none;
+        margin-left: -3px;
+      }
+
     }
+
   }
 
-  a {
+  .menu {
     font-size: 13px;
-    color: #CCCCCC;
+    color: #A6A6A6;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+
+  .footer {
+    font-size: 13px;
+    color: #A6A6A6;
     text-decoration: none;
   }
 
+  h2 {
+    padding-top: 70px;
+  }
+
+  h4 {
+    color: #676767;
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+  }
+
   a:hover {
-    color: #808080;
+    color: #676767;
+    cursor: pointer;
   }
 
   .content {
@@ -42,6 +71,17 @@ body {
     float: left;
   }
 
+  .aboutme {
+    width: 653px;
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+
+    h2 {
+      padding-top: 0px;
+    }
+  }
+
   .margin {
     padding-left: 8px;
   }
@@ -51,20 +91,17 @@ body {
   }
 
   #inactive {
-    color: #808080;
+    color: #FF6633;
     pointer-events: none;
     cursor: default;
   }
 
-  h2 {
-    padding-top: 70px;
-  }
-
-  h4 {
-    color: #808080;
-    margin: 0px;
-    padding-top: 15px;
-    padding-bottom: 30px;
+  .static{
+    color: #676767;
+    pointer-events: none;
+    cursor: default;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   img {
@@ -83,6 +120,11 @@ body {
 
   .description {
     float: left;
+    a {
+      font-size: 13px;
+      color: #A6A6A6;
+      text-decoration: none;
+    }
   }
 
 }

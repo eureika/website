@@ -1,8 +1,10 @@
 class PagesController < ApplicationController
   def index
   end
+
   def reel
   end
+
   def models
   end
   def designs    
@@ -11,7 +13,16 @@ class PagesController < ApplicationController
   end
   def others
   end
-  def resume
+  def about
+  end
+
+  def cottage
+  end
+  def environments
+  end
+  def camera
+  end
+  def cupcake
   end
 
   def card_series
@@ -21,9 +32,19 @@ class PagesController < ApplicationController
   def journal_wax
   end
 
-  def animated_short
+  def prairie
   end
-  def afterglow
+  def goobr
+  end
+  def instant
+  end
+
+
+  def sketchbook
+  end
+  def studies
+  end
+  def animated_shorts
   end
 
 end
